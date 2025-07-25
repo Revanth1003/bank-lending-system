@@ -1,0 +1,20 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore SQLite DB files (if any)
+*.db
+
+# Ignore Node modules (if accidentally added)
+node_modules/
+
+# Ignore environment/config files
+.env
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
